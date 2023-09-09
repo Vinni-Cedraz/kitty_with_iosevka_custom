@@ -3,6 +3,8 @@
 #install kitty:
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 echo "PATH=$PATH:$HOME/kitty.app/bin" ~/.zshrc
+echo "PATH=$PATH:dmenu-5.2/dmenu_run" ~/.zshrc
+echo "alias d=dmenu_run" ~/.zshrc
 
 #configure kitty:
 mkdir -p ~/.config/kitty/
